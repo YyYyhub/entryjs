@@ -683,3 +683,11 @@ module.exports = {
         };
     },
 };
+Entry.blocks.my_test_block = {
+    color: '#00bb00',
+    skeleton: 'basic',
+    template: '핸드폰 블록 테스트',
+    func: function (sprite, script) {
+        return script.callReturn();
+    },
+};
